@@ -24,5 +24,5 @@ class StateMachine:
 
 
     # TODO: make a start state
-    # make an end state and make getters and setters. 
+    # make an end state and make getters and setters.
 

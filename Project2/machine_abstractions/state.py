@@ -24,19 +24,19 @@ class State:
         canPlay = False
         for i in range(0, rules.size()):
             if cards.size() == 4 and isinstance(rules[i], FourCardRule): # if four cards are passed in and is a four card rule
-                if(rules[i].canPlay(cardPlayed, cards[1], cards[2], cards[3]) == True):
+                if(rules[i].canPlay(cardPlayed, cards[0], cards[1], cards[2]) == True):
                     print("Valid Move")
                     canPlay = True
                     break
 
             elif (cards.size() == 3 and isinstance(rules[i], ThreeCardRule)): # if three cards are passed in and is a three card rule
-                if (rules[i].canPlay(cardPlayed, cards[1], cards[2]) == True):
+                if (rules[i].canPlay(cardPlayed, cards[0], cards[1]) == True):
                     print("Valid Move")
                     canPlay = True
                     break
 
             elif (cards.size() == 2 and isinstance(rules[i], TwoCardRule)): # if three cards are passed in and is a three card rule
-                if (rules[i].canPlay(cardPlayed, cards[1]) == True):
+                if (rules[i].canPlay(cardPlayed, cards[0]) == True):
                     print("Valid Move")
                     canPlay = True
                     break
