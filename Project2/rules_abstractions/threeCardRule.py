@@ -12,6 +12,6 @@ class ThreeCardRule(Rule):
     # this processes the current play based on 3 cards passed in, including the comp card
     # will be customized when rule is declared
     # returns true or false
-    def canPlay3(self, compCard, card1, card2):
+    def canPlay(self, compCard, card1, card2):
         return
 

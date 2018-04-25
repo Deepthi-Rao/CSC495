@@ -12,5 +12,5 @@ class TwoCardRule(Rule):
     # this processes the current play based on 2 cards passed in, including the comp card
     # will be customized when rule is declared
     # returns true or false
-    def canPlay3(self, compCard, card1):
+    def canPlay(self, compCard, card1):
         return
