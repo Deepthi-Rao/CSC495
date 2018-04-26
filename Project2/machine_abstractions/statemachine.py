@@ -1,7 +1,7 @@
 from rules_abstractions.threeCardRule import ThreeCardRule
 from rules_abstractions.fourCardRule import FourCardRule
 from rules_abstractions.twoCardRule import TwoCardRule
-from machine_abstractions.state import State
+from machine_abstractions.state import Start, Win
 
 # This is the abstraction for the state machine that will be in each game
 
@@ -15,14 +15,14 @@ class StateMachine:
         self.rules = rules
         self.deck = deck #with stack abstraction properties
         self.pile = None
-
         #current player default always set to first player in array
         self.currentPlayer = players[0]
-
-        #
-        self.currentState # = Start state
+        self.currentState = Start()
 
 
     # TODO: make a start state
     # make an end state and make getters and setters.
 
+    def run(self):
+        pass
+            

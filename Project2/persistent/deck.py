@@ -5,7 +5,7 @@ class Deck(Stack):
     def __repr__(self):
         return self.__class__.__name__
         
-    def __init__(self, suits, ranks, jokers=False):
+    def __init__(self, ranks, suits, jokers=False):
         self.stack = [Card(rank, suit) for rank in ranks for suit in suits]
         if jokers:
             self.stack.append(Card("Joker", None))
