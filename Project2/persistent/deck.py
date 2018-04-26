@@ -10,6 +10,12 @@ class Deck(Stack):
         if jokers:
             self.stack.append(Card("Joker", None))
             self.stack.append(Card("Joker", None))
+    
+    # returns a dictionary with ranks and suits
+    @staticmethod        
+    def getDefaultDeck():
+        return { 'ranks' : [2,3,4,5,6,7,8,9,10,"J","Q","K","A"],
+                'suits' : ["HEARTS","DIAMONDS","SPADES","CLUBS"] }
         
     # deals a specified number of cards from the top of the deck
     def deal(self, numCards):

@@ -6,6 +6,6 @@ class EgyptianRatScrew(Game):
     def __init__(self, players):
         super.declareGame("Egyptian Rat Screw")
         super.declareRules(rules.ers_rules.getAllRules())
-        super.createDeck(Deck([2,3,4,5,6,7,8,9,10,"J","Q","K","A"],["HEARTS","DIAMONDS","SPADES","CLUBS"]))
+        super.createDeck(Deck(Deck.getDefaultDeck()['ranks'], Deck.getDefaultDeck()['suits']))
         super.setPlayers(players)
     
