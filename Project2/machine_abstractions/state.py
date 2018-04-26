@@ -50,7 +50,6 @@ class State:
         self.transition()
 
 
-
     #custom to state will set next method for state machine
     def transition(self):
         return
