@@ -50,3 +50,6 @@ class Play3Rule(FourCardRule):
             if getPlayValue(card1, card2, card3) == rankToInt(compCard.getRank()):
                 return True
             return False
+        
+def getAllRules():
+    return [Play1Rule, Play2Rule, Play3Rule]

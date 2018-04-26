@@ -50,3 +50,5 @@ class MarriageRule(TwoCardRule):
                 return True
             return False
     
+def getAllRules():
+    return [FaceRule,SandwichRule,TensRule,MarriageRule]
