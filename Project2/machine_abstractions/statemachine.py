@@ -26,3 +26,9 @@ class StateMachine:
     def run(self):
         pass
             
+class SlapMachine(StateMachine):
+    def __init__(self, name, game, players, rules, deck):
+        super(name, game, players, rules, deck)
+        self.pile = None
+        self.currentPlayer = players[0]
+        self.currentState = Start()

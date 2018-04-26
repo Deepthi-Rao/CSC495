@@ -1,6 +1,7 @@
 from rules_abstractions.threeCardRule import ThreeCardRule
 from rules_abstractions.fourCardRule import FourCardRule
 from rules_abstractions.twoCardRule import TwoCardRule
+from rules_abstractions.oneCardRule import OneCardRule
 
 #this represents one state
 # name is the name of the state
@@ -19,8 +20,8 @@ class State:
     # this processes the current state
     # rules_abstractions is the array of rules_abstractions
     # cards is the array of cards
-    def processCurrent(self, rules, cardPlayed, cards):
-
+    def processCurrent(self, cardPlayed, cards):
+        rules = self.rules
         canPlay = False
         for i in range(0, rules.size()):
             if cards.size() == 4 and isinstance(rules[i], FourCardRule): # if four cards are passed in and is a four card rule
@@ -35,8 +36,14 @@ class State:
                     canPlay = True
                     break
 
-            elif (cards.size() == 2 and isinstance(rules[i], TwoCardRule)): # if three cards are passed in and is a three card rule
+            elif (cards.size() == 2 and isinstance(rules[i], TwoCardRule)): # if two cards are passed in and is a two card rule
                 if (rules[i].canPlay(cardPlayed, cards[0]) == True):
+                    print("Valid Move")
+                    canPlay = True
+                    break
+            
+            elif (cards.size() == 1 and isinstance(rules[i], OneCardRule)): # if two cards are passed in and is a two card rule
+                if (rules[i].canPlay(cardPlayed) == True):
                     print("Valid Move")
                     canPlay = True
                     break
