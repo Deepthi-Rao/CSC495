@@ -24,7 +24,9 @@ class StateMachine:
     # make an end state and make getters and setters.
 
     def run(self):
-        pass
+        if self.currentState.isWon():
+            print(self.currentPlayer + " won the game!")
+
             
 class SlapMachine(StateMachine):
     def __init__(self, name, game, players, rules, deck):

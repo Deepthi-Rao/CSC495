@@ -16,6 +16,10 @@ class State:
         self.name = name
         self.machine = machine
         self.rules = rules
+        
+    # will be overridden in Win state
+    def isWon(self):
+        return False
 
     # this processes the current state
     # rules_abstractions is the array of rules_abstractions
@@ -42,7 +46,7 @@ class State:
                     canPlay = True
                     break
             
-            elif (cards.size() == 1 and isinstance(rules[i], OneCardRule)): # if two cards are passed in and is a two card rule
+            elif (cards.size() == 1 and isinstance(rules[i], OneCardRule)): # if one card is passed in and is a one card rule
                 if (rules[i].canPlay(cardPlayed) == True):
                     print("Valid Move")
                     canPlay = True
@@ -50,7 +54,8 @@ class State:
 
         #once all rules are checked and if nothing returns true then canPlay stays False
         if(canPlay == False):
-            print("Invalid Move")
+            # print("Invalid Move")
+            pass
 
         #TODO: penalize player, set next player, call transition method to set next value
 
@@ -62,6 +67,14 @@ class State:
     
 class Start(State):
     """The start of the game"""
+    
+# placeholder 
+class Playing(State):
+    # depends on the game
+    def checkForWin(self):
+        pass
 
 class Win(State):
     """The game has been won"""
+    def isWon(self):
+        return True;
