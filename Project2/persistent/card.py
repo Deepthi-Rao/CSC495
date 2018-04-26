@@ -34,3 +34,8 @@ class Card:
         if self.rank == "Joker":
             return True
         return False
+    
+    def isFaceCard(self):
+        if self.suit == "J" or self.suit == "Q" or self.suit == "K" or self.suit == "A":
+            return True
+        return False
