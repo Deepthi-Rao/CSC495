@@ -61,24 +61,8 @@ class State:
 
         self.transition()
 
-<<<<<<< HEAD
 
-=======
->>>>>>> aeb31055d7ade52a0cb40105df6021b1d893d760
     #custom to state will set next method for state machine
     def transition(self):
         return self
     
-class Start(State):
-    """The start of the game"""
-    
-# placeholder 
-class Playing(State):
-    # depends on the game
-    def checkForWin(self):
-        pass
-
-class Win(State):
-    """The game has been won"""
-    def isWon(self):
-        return True;

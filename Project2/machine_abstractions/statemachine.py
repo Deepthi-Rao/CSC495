@@ -1,7 +1,7 @@
 from rules_abstractions.threeCardRule import ThreeCardRule
 from rules_abstractions.fourCardRule import FourCardRule
 from rules_abstractions.twoCardRule import TwoCardRule
-from machine_abstractions.state import Start, Win
+from machine_abstractions.state import State
 
 # This is the abstraction for the state machine that will be in each game
 
@@ -17,7 +17,7 @@ class StateMachine:
         self.pile = None
         #current player default always set to first player in array
         self.currentPlayer = players[0]
-        self.currentState = Start()
+        self.currentState = self.Start()
 
 
     # TODO: make a start state
@@ -27,10 +27,22 @@ class StateMachine:
         if self.currentState.isWon():
             print(self.currentPlayer + " won the game!")
 
-            
-class SlapMachine(StateMachine):
-    def __init__(self, name, game, players, rules, deck):
-        super(name, game, players, rules, deck)
-        self.pile = None
-        self.currentPlayer = players[0]
-        self.currentState = Start()
+
+    class Start(State):
+        """The start of the game"""
+
+
+    # placeholder
+    class Playing(State):
+        # depends on the game
+        def checkForWin(self):
+            pass
+
+
+    class Win(State):
+        """The game has been won"""
+
+        def isWon(self):
+            return True;
+
+
