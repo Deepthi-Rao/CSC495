@@ -1,7 +1,7 @@
 from rules_abstractions.twoCardRule import TwoCardRule
 
 def getColor(card):
-    if card.getSuit() == "Hearts" or card.getSuit() == "Diamonds":
+    if card.getSuit() == "HEARTS" or card.getSuit() == "DIAMONDS":
         return "RED"
     else:
         return "BLACK"
