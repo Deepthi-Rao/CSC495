@@ -15,3 +15,6 @@ class GuessRule(TwoCardRule):
         if getColor(compCard) == guess.upper():
             return True
         return False
+    
+def getAllRules():
+    return GuessRule
