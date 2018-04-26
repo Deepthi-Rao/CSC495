@@ -5,7 +5,7 @@ from rules_abstractions.twoCardRule import TwoCardRule
 #this represents one state
 # name is the name of the state
 # machine is the machine that the state is contained within
-# rules_abstractions is the array of rules_abstractions that will be passed into each state to process the current card
+# rules is the array of rules_abstractions that will be passed into each state to process the current card
 # the machine will have access to the deck of cards and players etc.
 
 class State:
@@ -49,17 +49,12 @@ class State:
 
         self.transition()
 
-
-
     #custom to state will set next method for state machine
     def transition(self):
-        return
+        return self
+    
+class Start(State):
+    """The start of the game"""
 
-
-
-
-
-
-
-
-
+class Win(State):
+    """The game has been won"""
