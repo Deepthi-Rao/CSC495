@@ -8,3 +8,6 @@ class TopCard(Game):
         super.declareRules(rules.topcard_rules.getAllRules())
         super.createDeck(Deck.getDefaultDeck()['ranks'], Deck.getDefaultDeck()['suits'])
         super.setPlayers(players)
+        
+    def play(self):
+        pass

@@ -8,3 +8,6 @@ class BlackOrRed(Game):
         super.declareRules(rules.blackorred_rules.getAllRules())
         super.createDeck(Deck.getDefaultDeck()['ranks'], Deck.getDefaultDeck()['suits'])
         super.setPlayers(players)
+        
+    def play(self):
+        pass

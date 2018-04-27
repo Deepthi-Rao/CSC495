@@ -9,3 +9,5 @@ class EgyptianRatScrew(Game):
         super.createDeck(Deck(Deck.getDefaultDeck()['ranks'], Deck.getDefaultDeck()['suits']))
         super.setPlayers(players)
     
+    def play(self):
+        pass
