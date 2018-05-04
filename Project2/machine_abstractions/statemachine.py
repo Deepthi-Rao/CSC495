@@ -8,40 +8,37 @@ from machine_abstractions.state import State
 class StateMachine:
 
     #initializes the state machine with a name, the game being passed in and the deck
-    def __init__(self, name, game, players, rules, deck):
-        self.name = name
+    def __init__(self, game, players, rules, deck):
         self.game = game
         self.players = players
         self.rules = rules
         self.deck = deck #with stack abstraction properties
         self.pile = None
         #current player default always set to first player in array
+        self.turnIndex = 0;
+        self.currentState = self.Start(self)
         self.currentPlayer = players[0]
-        self.currentState = self.Start()
+        self.states = self.getAllStates()
 
+    # set the current player
+    def setCurrentPlayer(self, turnIndex):
+        self.currentPlayer = self.players[turnIndex % self.players.length()]
 
-    # TODO: make a start state
-    # make an end state and make getters and setters.
+    # set the current state
+    def setCurrentState(self, state):
+        self.setCurrentState()
 
-    def run(self):
-        if self.currentState.isWon():
-            print(self.currentPlayer + " won the game!")
+    #return all the states created
+    def getAllStates(self):
+        return
 
-
-    class Start(State):
-        """The start of the game"""
-
-
-    # placeholder
-    class Playing(State):
-        # depends on the game
-        def checkForWin(self):
-            pass
-
+    class Start:
+        #starts the game
+        def begin(self):
+            return
 
     class Win(State):
         """The game has been won"""
-
         def isWon(self):
             return True;
 

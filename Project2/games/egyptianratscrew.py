@@ -1,13 +1,24 @@
 from game_abstractions.game import Game
-import rules.ers_rules
+from rules.ers_rules import ERSRules
 from persistent.deck import Deck
+from machines.ersMachine import ERSMachine
+from persistent.player import Player
+
 
 class EgyptianRatScrew(Game):
     def __init__(self, players):
-        super.declareGame("Egyptian Rat Screw")
-        super.declareRules(rules.ers_rules.getAllRules())
-        super.createDeck(Deck(Deck.getDefaultDeck()['ranks'], Deck.getDefaultDeck()['suits']))
-        super.setPlayers(players)
-    
+        self.declareGame("Egyptian Rat Screw")
+        self.declareRules(ERSRules().getAllRules())
+        self.createDeck(Deck(Deck.getDefaultDeck()['ranks'], Deck.getDefaultDeck()['suits']))
+        self.setPlayers(players)
+        self.machine = ERSMachine(self, self.players, self.rules, self.deck)
+
     def play(self):
-        pass
+        currentCard = self.machine.currentPlayer.playTopCard()
+        self.machine.currentState.check(currentCard)
+
+playersID = ["hello", "jimmy"]
+players = [Player(p) for p in playersID]
+currentGame = EgyptianRatScrew(players)
+currentGame.play()
+

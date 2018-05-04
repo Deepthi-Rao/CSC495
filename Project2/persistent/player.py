@@ -9,15 +9,6 @@ class Player:
     
     def getName(self):
         return self.name
-
-    def startTurn(self):
-        self.isPlaying = True;
-    
-    def endTurn(self):
-        self.isPlaying = False
-
-    def getIsPlaying(self):
-        return self.isPlaying
     
     def viewHand(self):
         if self.hand == None:
@@ -29,9 +20,6 @@ class Player:
 
     def numCards(self):
         return self.hand.getNumCards()
-
-    def hasNoCards(self):
-        return self.numCards() == 0
     
     def getCardsInHand(self):
         return self.hand.getCards()
