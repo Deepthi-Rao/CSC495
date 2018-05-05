@@ -27,7 +27,9 @@ class Hand:
 
     # this gets the first card off the top of the players hand (rightmost index)
     def playCard(self):
-        return self.cards.pop()
+        if(len(self.cards) > 0):
+            return self.cards.pop()
+        pass
 
     # discards a specific card from the hand    
     def discard(self, card):

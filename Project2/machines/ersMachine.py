@@ -28,15 +28,19 @@ class ERSMachine(StateMachine):
             for i in range(0, len(self.machine.game.players)):
                 if(self.machine.game.players[i].getHand().size() == 52):
                     self.machine.setCurrentState(self.machine.Win(self.machine))
-                    self.machine.currentState.processCurrent()
+                    self.machine.currentState.processCurrent(self.machine.game.players[i])
+                    return True
+
 
         def check(self, cardPlayed):
-            self.currentInfo()
-            self.checkWin()
-            self.machine.game.pile.push(cardPlayed)
+
+            if self.checkWin():
+                return
+            if (cardPlayed != None):
+                self.currentInfo()
+                self.machine.game.pile.push(cardPlayed)
             self.machine.game.incrementTurnIndex()
             if self.processCurrent():
-
                 self.machine.setCurrentState(self.machine.Slappable(self.machine))
                 self.machine.game.setCurrentPlayer()
             else:
@@ -51,13 +55,16 @@ class ERSMachine(StateMachine):
             for i in range(0, len(self.machine.game.players)):
                 if(self.machine.game.players[i].getHand().size() == 52):
                     self.machine.setCurrentState(self.machine.Win(self.machine))
-                    self.machine.currentState.processCurrent()
+                    self.machine.currentState.processCurrent(self.machine.game.players[i])
+                    return True
 
         def check(self, cardPlayed):
 
-            self.currentInfo()
-            self.checkWin()
-            self.machine.game.pile.push(cardPlayed)
+            if self.checkWin():
+                return
+            if(cardPlayed != None):
+                self.currentInfo()
+                self.machine.game.pile.push(cardPlayed)
             self.machine.game.incrementTurnIndex()
             if self.processCurrent():
 
@@ -70,6 +77,5 @@ class ERSMachine(StateMachine):
 
     # this is the win state
     class Win(State):
-
-        def processCurrent(self):
-            print(self.machine.currentPlayer.getName() + 'has won the game!!!!')
+        def processCurrent(self, player):
+            print(player.getName() + " has won the game!" )

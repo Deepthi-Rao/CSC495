@@ -36,7 +36,7 @@ class State:
     def processCurrent(self):
 
         if(self.machine.game.cardPlayed == None):
-            print("No card played cannot process yet")
+            print("No card played by " + self.machine.game.currentPlayer)
             return
 
         for i in range(0, len(self.machine.game.rules)):

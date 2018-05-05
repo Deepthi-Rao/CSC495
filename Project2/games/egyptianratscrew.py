@@ -35,10 +35,11 @@ class EgyptianRatScrew(Game):
         print("")
         print("")
         print(self.slapQueue.peek().getName() + " has slapped the pile!")
+        self.slapQueue.peek().getHand().addCards(self.pile.removeAll())  # take all cards from pile and put it in players hand
         print(self.slapQueue.peek().getName() + " has " + str(self.slapQueue.peek().getHand().size()) + " cards in hand.")
         print("")
         print("")
-        self.slapQueue.peek().getHand().addCards(self.pile.removeAll()) #take all cards from pile and put it in players hand
+
 
         while(self.slapQueue.notEmpty()): #remove all elements from slap queue
             self.slapQueue.dequeue()
@@ -76,8 +77,6 @@ class EgyptianRatScrew(Game):
 
             if(game.slapQueue.notEmpty()):
                 game.serviceSlap()
-
-        print(game.currentPlayer + "Won this game");
 
 
 
