@@ -52,3 +52,7 @@ class Stack():
     # this sets the most recent slap time
     def setTime(self):
         self.mostRecentSlapTime = datetime.datetime.now()
+
+    def removeAll(self):
+        while(len(self.stack) != 0):
+            yield self.stack.pop()

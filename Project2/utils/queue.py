@@ -8,8 +8,6 @@ class Queue:
     def __init__(self):
         self.queue = deque([])
 
-
-
     #this enqueues an element to the end of the list
     def enqueue(self, element):
         self.queue.append(element)
@@ -22,4 +20,7 @@ class Queue:
     #this returns true if the queue is not empty
     def notEmpty(self):
         return len(self.queue) > 0
+
+    def peek(self):
+        return self.queue[0]
 

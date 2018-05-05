@@ -35,11 +35,11 @@ class ERSMachine(StateMachine):
             self.machine.game.pile.push(cardPlayed)
             self.machine.game.incrementTurnIndex()
             if self.processCurrent():
-                print("slap")
+
                 self.machine.setCurrentState(self.machine.Slappable(self.machine))
                 self.machine.game.setCurrentPlayer()
             else:
-                print(" non slap")
+
                 self.machine.setCurrentState(self.machine.NonSlappable(self.machine))
                 self.machine.game.setCurrentPlayer()
 
@@ -57,11 +57,11 @@ class ERSMachine(StateMachine):
             self.machine.game.pile.push(cardPlayed)
             self.machine.game.incrementTurnIndex()
             if self.processCurrent():
-                print("slap")
+
                 self.machine.setCurrentState(self.machine.Slappable(self.machine))
                 self.machine.game.setCurrentPlayer()
             else:
-                print("non Slap")
+
                 self.machine.setCurrentState(self.machine.NonSlappable(self.machine))
                 self.machine.game.setCurrentPlayer()
 
