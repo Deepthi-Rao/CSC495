@@ -36,7 +36,7 @@ class State:
     def processCurrent(self):
 
         if(self.machine.game.cardPlayed == None):
-            print("No card played by " + self.machine.game.currentPlayer)
+            print("No card played by " + self.machine.game.currentPlayer.getName())
             return
 
         for i in range(0, len(self.machine.game.rules)):
@@ -44,24 +44,25 @@ class State:
             if self.machine.game.pile.size() >= 4 and isinstance(self.machine.game.rules[i], FourCardRule): # if four cards are passed in and is a four card rule
                 if(self.machine.game.rules[i].canPlay(self.machine.game.cardPlayed, self.machine.game.pile.peekSecond(),
                                                       self.machine.game.pile.peekThird(), self.machine.game.pile.peekFourth()) == True):
+                    self.machine.game.displayMessage = self.machine.game.rules[i].name + "Employed."
 
                     return True
 
             if self.machine.game.pile.size() >= 3 and isinstance(self.machine.game.rules[i], ThreeCardRule): # if three cards are passed in and is a three card rule
                 if (self.machine.game.rules[i].canPlay(self.machine.game.cardPlayed,
                                                        self.machine.game.pile.peekSecond(), self.machine.game.pile.peekThird()) == True):
-
+                    self.machine.game.displayMessage = self.machine.game.rules[i].name + "Employed."
                     return True
 
             if self.machine.game.pile.size() >= 2 and isinstance(self.machine.game.rules[i], TwoCardRule): # if two cards are passed in and is a two card rule
                 if (self.machine.game.rules[i].canPlay(self.machine.game.cardPlayed, self.machine.game.pile.peekSecond()) == True):
-
+                    self.machine.game.displayMessage = self.machine.game.rules[i].name + "Employed."
                     return True
 
             
             if self.machine.game.pile.size() >= 1 and isinstance(self.machine.game.rules[i], OneCardRule): # if one card is passed in and is a one card rule
                 if (self.machine.game.rules[i].canPlay(self.machine.game.cardPlayed) == True):
-
+                    self.machine.game.displayMessage = self.machine.game.rules[i].name + "Employed."
                     return True
 
         return False

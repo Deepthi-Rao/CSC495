@@ -4,6 +4,9 @@
 
 class Rule:
 
+    def __init__(self, name):
+        self.name = name
+
     #returns true if the move is valid
     def canPlay(self):
         return

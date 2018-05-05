@@ -12,13 +12,13 @@ class ERSRules:
     class FaceRule(OneCardRule):
         def canPlay(self, compCard):
             if compCard.isFaceCard():
-
                 return True
             return False
 
     class DoubleRule(TwoCardRule):
         def canPlay(self, compCard, card1):
             if compCard.getRank == card1.getRank:
+
                 return True
             return False
 
@@ -33,6 +33,7 @@ class ERSRules:
         def canPlay(self, compCard, card1):
             try:
                 if (compCard.getRank + card1.getRank) == 10:
+
                     return True
             # if rank is not an integer
             except TypeError:
@@ -42,10 +43,13 @@ class ERSRules:
     class MarriageRule(TwoCardRule):
         def canPlay(self, compCard, card1):
             if compCard.getRank == "K" and card1.getRank == "Q":
+
                 return True
             elif compCard.getRank == "Q" and card1.getRank == "K":
+
                 return True
             return False
 
     def getAllRules(self):
-        return [self.FaceRule(), self.DoubleRule(), self.SandwichRule(), self.TensRule(), self.MarriageRule()]
+        return [self.FaceRule("Face Rule"), self.DoubleRule("Double Rule"),
+                self.SandwichRule("Sandwich Rule"), self.TensRule("Tens Rule"), self.MarriageRule("Marriage Rule")]

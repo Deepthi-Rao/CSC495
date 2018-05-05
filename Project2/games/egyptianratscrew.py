@@ -5,12 +5,11 @@ from machines.ersMachine import ERSMachine
 from utils.queue import Queue
 import random
 import time
-import asyncio
-import aioconsole
 
 
 
 class EgyptianRatScrew(Game):
+
     #this sets up the environment for the game
     def setEnv(self):
         self.declareGame("Egyptian Rat Screw")
@@ -35,6 +34,7 @@ class EgyptianRatScrew(Game):
         print("")
         print("")
         print(self.slapQueue.peek().getName() + " has slapped the pile!")
+        print(self.displayMessage)
         self.slapQueue.peek().getHand().addCards(self.pile.removeAll())  # take all cards from pile and put it in players hand
         print(self.slapQueue.peek().getName() + " has " + str(self.slapQueue.peek().getHand().size()) + " cards in hand.")
         print("")
@@ -43,8 +43,6 @@ class EgyptianRatScrew(Game):
 
         while(self.slapQueue.notEmpty()): #remove all elements from slap queue
             self.slapQueue.dequeue()
-
-
 
     def build(self, game):
         print("____Welcome to Egyptian Rats Crew____")
@@ -64,24 +62,14 @@ class EgyptianRatScrew(Game):
             if (isinstance(self.machine.currentState, self.machine.Slappable)):
                 slapFreq = random.randint(1, 10)
                 if (slapFreq > 2):
-                    timeFreq = random.randint(1, 4)
-                    time.sleep(timeFreq)
-                    game.slapQueue.enqueue(game.players[0])
-        
-            if(isinstance(self.machine.currentState, self.machine.Slappable)):
-                slapFreq = random.randint(1,10)
-                if(slapFreq > 2):
-                    timeFreq = random.randint(1, 4)
-                    time.sleep(timeFreq)
-                    game.slapQueue.enqueue(game.players[1])
+                    slap = random.randint(0, 1)
+                    if(slap == 0):
+                        game.slapQueue.enqueue(game.players[0])
+                    else:
+                        game.slapQueue.enqueue(game.players[1])
 
             if(game.slapQueue.notEmpty()):
                 game.serviceSlap()
-
-
-
-
-
 
 
 #starts game.

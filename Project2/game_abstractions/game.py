@@ -15,6 +15,7 @@ class Game:
         self.players = []
         self.rules = []
         self.turnIndex = 0
+        self.displayMessage = ""
 
     #initialize game specific machine
     def initializeMachine(self, machine):
