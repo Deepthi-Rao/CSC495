@@ -21,6 +21,7 @@ class State:
         print(self.machine.game.currentPlayer.getName() + " has played a Card with the properties: Suit " +
               self.machine.game.cardPlayed.getSuit() + " and Rank " + str(self.machine.game.cardPlayed.getRank))
 
+
     #this checks for a valid play
     def check(self):
         return

@@ -35,3 +35,7 @@ class Hand:
             self.cards.remove(card)
             return True
         return False
+
+    #returns the size
+    def size(self):
+        return len(self.cards)

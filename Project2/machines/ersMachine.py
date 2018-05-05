@@ -25,13 +25,14 @@ class ERSMachine(StateMachine):
     # this is the is slappable state
     class Slappable(State):
         def checkWin(self):
-            for i in range(0, self.machine.game.players.length()):
-                if(self.machine.game.players[i].getCardsInHand().size() == 52):
+            for i in range(0, len(self.machine.game.players)):
+                if(self.machine.game.players[i].getHand().size() == 52):
                     self.machine.setCurrentState(self.machine.Win(self.machine))
                     self.machine.currentState.processCurrent()
 
         def check(self, cardPlayed):
             self.currentInfo()
+            self.checkWin()
             self.machine.game.pile.push(cardPlayed)
             self.machine.game.incrementTurnIndex()
             if self.processCurrent():
@@ -47,13 +48,15 @@ class ERSMachine(StateMachine):
     class NonSlappable(State):
 
         def checkWin(self):
-            for i in range(0, self.machine.players.length()):
-                if(self.machine.players[i].getCardsInHand().size() == 52):
+            for i in range(0, len(self.machine.game.players)):
+                if(self.machine.game.players[i].getHand().size() == 52):
                     self.machine.setCurrentState(self.machine.Win(self.machine))
                     self.machine.currentState.processCurrent()
 
         def check(self, cardPlayed):
+
             self.currentInfo()
+            self.checkWin()
             self.machine.game.pile.push(cardPlayed)
             self.machine.game.incrementTurnIndex()
             if self.processCurrent():
