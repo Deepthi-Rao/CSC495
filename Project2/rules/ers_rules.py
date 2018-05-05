@@ -11,44 +11,41 @@ class ERSRules:
 
     class FaceRule(OneCardRule):
         def canPlay(self, compCard):
-            if not isinstance(super.machine, ERSMachine):
-                if compCard.isFaceCard():
-                    return True
-                return False
+            if compCard.isFaceCard():
+
+                return True
+            return False
 
     class DoubleRule(TwoCardRule):
         def canPlay(self, compCard, card1):
-            if isinstance(super.machine, ERSMachine):
-                if compCard.getRank() == card1.getRank():
-                    return True
-                return False
+            if compCard.getRank == card1.getRank:
+                return True
+            return False
 
     class SandwichRule(ThreeCardRule):
         def canPlay(self, compCard, card1, card2):
-            if isinstance(super.machine, ERSMachine):
-                if compCard.getRank() == card2.getRank():
-                    return True
-                return False
+            if compCard.getRank == card2.getRank:
+
+                return True
+            return False
 
     class TensRule(TwoCardRule):
         def canPlay(self, compCard, card1):
-            if isinstance(super.machine, ERSMachine):
-                try:
-                    if (compCard.getRank() + card1.getRank()) == 10:
-                        return True
-                # if rank is not an integer
-                except TypeError:
-                    pass
-                return False
+            try:
+                if (compCard.getRank + card1.getRank) == 10:
+                    return True
+            # if rank is not an integer
+            except TypeError:
+                pass
+            return False
 
     class MarriageRule(TwoCardRule):
         def canPlay(self, compCard, card1):
-            if isinstance(super.machine, ERSMachine):
-                if compCard.getRank() == "K" and card1.getRank() == "Q":
-                    return True
-                elif compCard.getRank() == "Q" and card1.getRank() == "K":
-                    return True
-                return False
+            if compCard.getRank == "K" and card1.getRank == "Q":
+                return True
+            elif compCard.getRank == "Q" and card1.getRank == "K":
+                return True
+            return False
 
     def getAllRules(self):
-        return [self.FaceRule, self.SandwichRule, self.TensRule, self.MarriageRule]
+        return [self.FaceRule(), self.DoubleRule(), self.SandwichRule(), self.TensRule(), self.MarriageRule()]

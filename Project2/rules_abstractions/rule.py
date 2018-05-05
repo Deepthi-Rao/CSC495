@@ -4,11 +4,6 @@
 
 class Rule:
 
-    #this initializes the rules
-    def __init__(self, name, machine):
-        self.name = name
-        self.machine = machine
-
     #returns true if the move is valid
     def canPlay(self):
         return
@@ -29,5 +24,5 @@ class Rule:
     def getPlayValue(self, *args):
         total = 0
         for card in args:
-            total += self.rankToInt(card.getRank())
+            total += self.rankToInt(card.getRank)
         return total

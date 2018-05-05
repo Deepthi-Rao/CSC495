@@ -16,10 +16,18 @@ class Hand:
     # returns the number of cards in the hand
     def getNumCards(self):
         return len(self.cards)
-    
+
+    #add one card to the deck
+    def addCard(self, card):
+        self.cards.append(card)
+
     # adds multiple cards to the hand
     def addCards(self, cards):
         self.cards.extend(cards)
+
+    # this gets the first card off the top of the players hand (rightmost index)
+    def playCard(self):
+        return self.cards.pop()
 
     # discards a specific card from the hand    
     def discard(self, card):

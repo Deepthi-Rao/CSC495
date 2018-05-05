@@ -11,19 +11,19 @@ class TopCardRules:
 
     class Play1Rule(TwoCardRule):
         def canPlay(self, compCard, card1):
-            if compCard.getRank() == card1.getRank():
+            if compCard.getRank == card1.getRank:
                 return True
             return False
 
     class Play2Rule(ThreeCardRule):
         def canPlay(self, compCard, card1, card2):
             #special case: compCard is an Ace
-            if compCard.getRank() == "A":
+            if compCard.getRank == "A":
                 if self.getPlayValue(card1, card2) == 14:
                     return True
                 return False
             else:
-                if self.getPlayValue(card1, card2) == self.rankToInt(compCard.getRank()):
+                if self.getPlayValue(card1, card2) == self.rankToInt(compCard.getRank):
                     return True
                 return False
 
@@ -33,12 +33,12 @@ class TopCardRules:
         def canPlay(self, compCard, card1, card2, card3):
 
             #special case: compCard is an Ace
-            if compCard.getRank() == "A":
+            if compCard.getRank == "A":
                 if self.getPlayValue(card1, card2, card3) == 14:
                     return True
                 return False
             else:
-                if self.getPlayValue(card1, card2, card3) == self.rankToInt(compCard.getRank()):
+                if self.getPlayValue(card1, card2, card3) == self.rankToInt(compCard.getRank):
                     return True
                 return False
 

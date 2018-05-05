@@ -13,25 +13,13 @@ from rules_abstractions.oneCardRule import OneCardRule
 class State:
 
     # this initializes the state with the rules_abstractions being passed in
-    def __init__(self, machine, cardPlayed = None):
+    def __init__(self, machine):
         self.machine = machine
-        self.cardPlayed = cardPlayed
-        self.rules = self.machine.rules
-        self.turnIndex = self.machine.turnIndex
-        self.players = self.machine.players
-        self.currentPlayer = self.players[self.turnIndex % len(self.players)]
-        self.deck = self.machine.deck
-
 
     # this displays the current information
     def currentInfo(self):
-        self.machine.setCurrentPlayer(self.turnIndex)
-        print(self.machine.currentPlayer.getName() + " is playing a Card")
-
-        print(
-            self.machine.currentPlayer.getName.getId() + " has played a Card with the properties: Suit " +
-                self.cardPlayed.getSuit() + " and Rank "
-                + str(self.cardPlayed.getRank()))
+        print(self.machine.game.currentPlayer.getName() + " has played a Card with the properties: Suit " +
+              self.machine.game.cardPlayed.getSuit() + " and Rank " + str(self.machine.game.cardPlayed.getRank))
 
     #this checks for a valid play
     def check(self):
@@ -46,41 +34,38 @@ class State:
     # cards is the array of cards
     def processCurrent(self):
 
-        canPlay = False
-
-        if(self.cardPlayed == None):
+        if(self.machine.game.cardPlayed == None):
             print("No card played cannot process yet")
-            #dont do anything
             return
 
-        for i in range(0, self.rules.size()):
-            if self.deck.size() >= 4 and isinstance(self.rules[i], FourCardRule): # if four cards are passed in and is a four card rule
-                if(self.rules[i].canPlay(self.cardPlayed, self.deck[0], self.deck[1], self.deck[2]) == True):
-                    print("Valid")
-                    canPlay = True
-                    break
+        for i in range(0, len(self.machine.game.rules)):
 
-            if self.deck.size() >= 3 and isinstance(self.rules[i], ThreeCardRule): # if three cards are passed in and is a three card rule
-                if (self.rules[i].canPlay(self.cardPlayed, self.deck[0], self.deck[1]) == True):
-                    print("Valid")
-                    canPlay = True
-                    break
+            if self.machine.game.pile.size() >= 4 and isinstance(self.machine.game.rules[i], FourCardRule): # if four cards are passed in and is a four card rule
+                if(self.machine.game.rules[i].canPlay(self.machine.game.cardPlayed, self.machine.game.pile.peekSecond(),
+                                                      self.machine.game.pile.peekThird(), self.machine.game.pile.peekFourth()) == True):
 
-            if self.deck.size() >= 2 and isinstance(self.rules[i], TwoCardRule): # if two cards are passed in and is a two card rule
-                if (self.rules[i].canPlay(self.cardPlayed, self.deck[0]) == True):
-                    print("Valid")
-                    canPlay = True
-                    break
+                    return True
+
+            if self.machine.game.pile.size() >= 3 and isinstance(self.machine.game.rules[i], ThreeCardRule): # if three cards are passed in and is a three card rule
+                if (self.machine.game.rules[i].canPlay(self.machine.game.cardPlayed,
+                                                       self.machine.game.pile.peekSecond(), self.machine.game.pile.peekThird()) == True):
+
+                    return True
+
+            if self.machine.game.pile.size() >= 2 and isinstance(self.machine.game.rules[i], TwoCardRule): # if two cards are passed in and is a two card rule
+                if (self.machine.game.rules[i].canPlay(self.machine.game.cardPlayed, self.machine.game.pile.peekSecond()) == True):
+
+                    return True
+
             
-            if self.deck.size() >= 1 and isinstance(self.rules[i], OneCardRule): # if one card is passed in and is a one card rule
-                if (self.rules[i].canPlay(self.cardPlayed) == True):
-                    print("Valid")
-                    canPlay = True
-                    break
+            if self.machine.game.pile.size() >= 1 and isinstance(self.machine.game.rules[i], OneCardRule): # if one card is passed in and is a one card rule
+                if (self.machine.game.rules[i].canPlay(self.machine.game.cardPlayed) == True):
 
-        #once all rules are checked and if nothing returns true then canPlay stays False
-        if(canPlay == False):
-            # print("Invalid Move")
-            pass
+                    return True
+
+        return False
+
+
+
 
     
