@@ -2,12 +2,12 @@ class Card:
     def __repr__(self):
         if self.rank == None or self.suit == None:
             return "Joker"
-        return self.rank + " of " + self.suit
+        return str(self.rank) + " of " + self.suit
         
     def __str__(self):
         if self.rank == None or self.suit == None:
             return "Joker"
-        return self.rank + " of " + self.suit
+        return str(self.rank) + " of " + self.suit
         
     def __init__(self, rank, suit):
         self.rank, self.suit, self.isDealt = rank, suit, False
@@ -26,11 +26,17 @@ class Card:
 
     def setSuit(self, suit):
         self.suit = suit
-        
+
+    @property
     def getRank(self):
         return self.rank
         
     def isJoker(self):
         if self.rank == "Joker":
+            return True
+        return False
+    
+    def isFaceCard(self):
+        if self.rank == 'J' or self.rank == 'Q' or self.rank == 'K' or self.rank == 'A':
             return True
         return False

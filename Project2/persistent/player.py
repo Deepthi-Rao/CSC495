@@ -1,21 +1,16 @@
+from persistent.hand import Hand
+
 class Player:
+
     def __repr__(self):
         return self.name
         
     def __init__(self, playername):
-        self.name, self.hand, = playername, None
+        self.name = playername
+        self.hand = Hand()
     
     def getName(self):
         return self.name
-
-    def startTurn(self):
-        self.isPlaying = True;
-    
-    def endTurn(self):
-        self.isPlaying = False
-
-    def getIsPlaying(self):
-        return self.isPlaying
     
     def viewHand(self):
         if self.hand == None:
@@ -27,9 +22,6 @@ class Player:
 
     def numCards(self):
         return self.hand.getNumCards()
-
-    def hasNoCards(self):
-        return self.numCards() == 0
     
     def getCardsInHand(self):
         return self.hand.getCards()
@@ -38,8 +30,10 @@ class Player:
         self.hand = hand
 
     def playTopCard(self):
-        return self.hand.getTopCard()
+        return self.hand.playCard()
     
     def playCard(self, card):
         if card in self.hand.getCards():
             return self.hand.discard(card)
+
+
