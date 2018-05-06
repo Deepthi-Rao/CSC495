@@ -26,8 +26,15 @@ class Game:
         self.players = [Player(p) for p in playersStr]
 
     # set the current player
-    def setCurrentPlayer(self):
-        self.currentPlayer = self.players[self.turnIndex % len(self.players)]
+    def setCurrentPlayer(self, player = None):
+        if player == None:
+            self.currentPlayer = self.players[self.turnIndex % len(self.players)]
+        else:
+            self.currentPlayer = player
+            
+    def getCurrentPlayer(self):
+        return self.currentPlayer
+
 
     # deals all cards in the deck to all players defined
     def dealAllCards(self):
