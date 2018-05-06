@@ -27,6 +27,13 @@ class StateMachine:
         #starts the game
         def begin(self):
             return
+        
+    class Turn(State):
+        def __init__(self, player):
+            self.currentPlayer = player
+            
+        def getPlayer(self):
+            return self.currentPlayer
 
     # this is the win state
     class Win(State):
