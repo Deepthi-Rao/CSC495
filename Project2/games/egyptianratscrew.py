@@ -24,7 +24,7 @@ class EgyptianRatScrew(Game):
 
     def begin(self):
          self.setCurrentPlayer()
-         self.dealCards()
+         self.dealAllCards()
 
     def play(self):
         self.cardPlayed = self.currentPlayer.playTopCard()
@@ -45,7 +45,7 @@ class EgyptianRatScrew(Game):
             self.slapQueue.dequeue()
 
     def build(self, game):
-        print("____Welcome to Egyptian Rats Crew____")
+        print("____Welcome to Egyptian Rat Screw____")
         print("")
         print("")
 

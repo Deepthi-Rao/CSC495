@@ -15,6 +15,7 @@ class BlackOrRedRules:
                 return True
             return False
 
+        @staticmethod
         def getColor(card):
             if card.getSuit() == "HEARTS" or card.getSuit() == "DIAMONDS":
                 return "RED"

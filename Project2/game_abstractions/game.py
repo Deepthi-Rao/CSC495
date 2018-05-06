@@ -30,11 +30,18 @@ class Game:
         self.currentPlayer = self.players[self.turnIndex % len(self.players)]
 
     # deals all cards in the deck to all players defined
-    def dealCards(self):
+    def dealAllCards(self):
         size = self.deck.size()
         while (size):
             self.players[self.deck.size() % len(self.players)].getHand().addCard(self.deck.pop())
             size = size - 1
+            
+    def dealCards(self, handSize):
+        if handSize * len(self.players) > 54:
+            raise Exception('Hand size too large')
+        else:
+            for p in self.players:
+                p.getHand().addCards(self.deck.deal(handSize))
 
     #this declares the game
     def declareGame(self, name):

@@ -25,6 +25,12 @@ class BoRMachine(StateMachine):
         def getPlayer(self):
             return self.currentPlayer
         
-        def check(self, guess):
-            pass
+        def check(self, cardPlayed, guess):
+            self.machine.game.pile.push(cardPlayed)
+            if self.processCurrent(guess):
+                pass
+            
+        def processCurrent(self, guess):
+            return self.machine.game.rules[0].canPlay(self.machine.game.cardPlayed, guess
+                
         
