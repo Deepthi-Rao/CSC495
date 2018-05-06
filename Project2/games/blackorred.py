@@ -17,7 +17,8 @@ class BlackOrRed(Game):
         while self.deck.size > 0:
             self.cardPlayed = self.deck.draw()
             print("The dealer has drawn a card. Black or Red?\n")
-            
+            guess = input("Black or Red?\n")
+            self.machine.getCurrentState().check(self.cardPlayed, guess)
         
         
     def begin(self):

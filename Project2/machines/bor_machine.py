@@ -30,18 +30,27 @@ class BoRMachine(StateMachine):
         def check(self, cardPlayed, guess):
             self.machine.game.pile.push(cardPlayed)
             if self.processCurrent(guess):
+                print("You have guessed correctly!\n")
+                self.numGuesses += 1
                 if self.numGuesses >= 3:
+                    self.numGuesses = 0
                     self.playerIndex += 1
+                    print("You have guessed correctly three times.")
+                    print("Your turn has ended.")
                     self.machine.setCurrentState(self.turnStates[self.playerIndex])
                 else:
-                    self.numGuesses += 1
+                    print("You have guessed correctly " + self.numGuesses + " time(s).")
             else:
+                print("Your guess is incorrect.")
                 self.machine.game.getCurrentPlayer().scorePoints(self.numGuesses+1)
+                print("You now have " + self.machine.game.getCurrentPlayer().getPoints( + " points."))
+                print("Your turn has ended.")
                 self.playerIndex += 1
+                self.numGuesses = 0
                 self.machine.game.setCurrentPlayer(self.turnStates[self.playerIndex].getPlayer())
                 self.machine.setCurrentState(self.turnStates[self.playerIndex])
             
         def processCurrent(self, guess):
             return self.machine.game.rules[0].canPlay(self.machine.game.cardPlayed, guess)
-                
+        
         

@@ -21,6 +21,10 @@ class StateMachine:
     #return all the states created
     def getAllStates(self):
         return
+    
+    # will be overridden
+    def currentInfo(self):
+        pass
 
     # this is the start state
     class Start(State):

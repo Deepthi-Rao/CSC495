@@ -1,6 +1,4 @@
-from persistent.hand import Hand
 from persistent.player import Player
-from persistent.deck import Deck
 from persistent.pile import Pile
 
 class Game:
