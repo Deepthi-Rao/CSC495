@@ -6,19 +6,30 @@ from machines.bor_machine import BoRMachine
 
 class BlackOrRed(Game):
     def __init__(self):
-        super.declareGame("Black or Red")
-        super.declareRules(BlackOrRedRules.getAllRules())
-        super.createDeck(Deck.getDefaultDeck()['ranks'], Deck.getDefaultDeck()['suits'])
+        super().__init__()
+        self.declareGame("Black or Red")
+        self.declareRules(BlackOrRedRules().getAllRules())
+        self.createDeck(Deck(Deck.getDefaultDeck()['ranks'], Deck.getDefaultDeck()['suits']))
+        self.turnIndex = 0
         
         
     def play(self):
         self.begin()
         
-        while self.deck.size > 0:
+        while self.deck.getNumCards() > 0:
             self.cardPlayed = self.deck.draw()
-            print("The dealer has drawn a card. Black or Red?\n")
+            print("Current Player: " + self.getCurrentPlayer().name)
+            print("The dealer has drawn a card.\n")
             guess = input("Black or Red?\n")
             self.machine.getCurrentState().check(self.cardPlayed, guess)
+        
+        print("No cards remaining. Finding the winner...")
+        print("...")
+        print("...")
+        print("...")
+        
+        winner = self.findWinner()
+        print(winner.name + " is the winner!")
         
         
     def begin(self):
@@ -34,13 +45,20 @@ class BlackOrRed(Game):
         print("Good luck!\n\n")
         
         names = []
-        numPlayers = input("How many players? ")
+        numPlayers = int(input("How many players? "))
         for _ in range(numPlayers):
             names.append(input("Enter a name: "))
         
-        players = [Player(n) for n in names]
-        super.setPlayers(players)
+        self.createPlayers(names)
         
         self.initializeMachine(BoRMachine(self, self.players))
         
+    def findWinner(self):
+        lowest = self.players[0]
+        for p in self.players:
+            if p.getPoints() < lowest.getPoints():
+                lowest = p
+        return lowest
+
+BlackOrRed().play()
         

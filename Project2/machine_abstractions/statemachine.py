@@ -17,6 +17,9 @@ class StateMachine:
     # set the current state
     def setCurrentState(self, state):
         self.currentState = state
+        
+    def getCurrentState(self):
+        return self.currentState
 
     #return all the states created
     def getAllStates(self):

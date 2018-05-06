@@ -23,4 +23,4 @@ class BlackOrRedRules:
                 return "BLACK"
 
     def getAllRules(self):
-        return self.GuessRule
+        return [self.GuessRule]
