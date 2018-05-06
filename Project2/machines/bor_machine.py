@@ -31,6 +31,6 @@ class BoRMachine(StateMachine):
                 pass
             
         def processCurrent(self, guess):
-            return self.machine.game.rules[0].canPlay(self.machine.game.cardPlayed, guess
+            return self.machine.game.rules[0].canPlay(self.machine.game.cardPlayed, guess)
                 
         
