@@ -4,7 +4,6 @@ from persistent.deck import Deck
 from machines.ersMachine import ERSMachine
 from utils.queue import Queue
 import random
-import time
 
 
 
@@ -23,8 +22,8 @@ class EgyptianRatScrew(Game):
         self.createPlayers(playersStr)
 
     def begin(self):
-         self.setCurrentPlayer()
-         self.dealCards()
+        self.setCurrentPlayer()
+        self.dealAllCards()
 
     def play(self):
         self.cardPlayed = self.currentPlayer.playTopCard()
@@ -45,7 +44,7 @@ class EgyptianRatScrew(Game):
             self.slapQueue.dequeue()
 
     def build(self, game):
-        print("____Welcome to Egyptian Rats Crew____")
+        print("____Welcome to Egyptian Rat Screw____")
         print("")
         print("")
 

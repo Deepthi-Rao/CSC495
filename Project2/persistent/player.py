@@ -8,6 +8,7 @@ class Player:
     def __init__(self, playername):
         self.name = playername
         self.hand = Hand()
+        self.points = 0
     
     def getName(self):
         return self.name
@@ -36,4 +37,12 @@ class Player:
         if card in self.hand.getCards():
             return self.hand.discard(card)
 
+    def getPoints(self):
+        return self.points
+    
+    def scorePoint(self):
+        self.points += 1
+    
+    def scorePoints(self, points):
+        self.points += points
 

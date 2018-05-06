@@ -17,16 +17,30 @@ class StateMachine:
     # set the current state
     def setCurrentState(self, state):
         self.currentState = state
+        
+    def getCurrentState(self):
+        return self.currentState
 
     #return all the states created
     def getAllStates(self):
         return
+    
+    # will be overridden
+    def currentInfo(self):
+        pass
 
     # this is the start state
     class Start(State):
         #starts the game
         def begin(self):
             return
+        
+    class Turn(State):
+        def __init__(self, player):
+            self.currentPlayer = player
+            
+        def getPlayer(self):
+            return self.currentPlayer
 
     # this is the win state
     class Win(State):

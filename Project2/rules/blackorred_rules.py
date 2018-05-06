@@ -15,6 +15,7 @@ class BlackOrRedRules:
                 return True
             return False
 
+        @staticmethod
         def getColor(card):
             if card.getSuit() == "HEARTS" or card.getSuit() == "DIAMONDS":
                 return "RED"
@@ -22,4 +23,4 @@ class BlackOrRedRules:
                 return "BLACK"
 
     def getAllRules(self):
-        return self.GuessRule
+        return [self.GuessRule]
