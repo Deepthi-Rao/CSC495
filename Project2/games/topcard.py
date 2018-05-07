@@ -13,7 +13,8 @@ class TopCard(Game):
         self.turnIndex = 0
         
     def play(self):
-        self.begin()
+        self.intro()
+        self.initializePlayers()
         
         while not self.machine.getCurrentState() == StateMachine.Win:
             self.checkDeck(1)
@@ -54,15 +55,7 @@ class TopCard(Game):
         print(self.winner.name + " has won the game!")
             
     
-    def begin(self):
-        print("____Welcome to Top Card____\n\n")
-        print("RULES:")
-        print("The dealer will draw a card.")
-        print("The player must play up to three cards that add up to the value of the dealer's card.")
-        print("If the player cannot, they must draw two cards.")
-        print("Whichever player gets an empty hand first wins.")
-        print("Good luck!\n\n")
-        
+    def initializePlayers(self):
         names = []
         numPlayers = int(input("How many players? "))
         for _ in range(numPlayers):
@@ -71,5 +64,14 @@ class TopCard(Game):
         self.createPlayers(names)
         self.initializeMachine(TopCardMachine(self, self.players))
         self.dealCards(5)
+        
+    def intro(self):
+        print("____Welcome to Top Card____\n\n")
+        print("RULES:")
+        print("The dealer will draw a card.")
+        print("The player must play up to three cards that add up to the value of the dealer's card.")
+        print("If the player cannot, they must draw two cards.")
+        print("Whichever player gets an empty hand first wins.")
+        print("Good luck!\n\n")
         
 TopCard().play()

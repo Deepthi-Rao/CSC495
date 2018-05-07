@@ -4,17 +4,12 @@ from persistent.pile import Pile
 class Game:
     
     def __init__(self):
-        self.name = None
-        self.machine = None
-        self.deck = None
+        self.name, self.machine, self.deck = None
+        self.currentPlayer, self.cardPlayed, self.winner = None
+        self.players, self.rules = [], []
         self.pile = Pile()
-        self.currentPlayer = None
-        self.cardPlayed = None
-        self.players = []
-        self.rules = []
         self.turnIndex = 0
         self.displayMessage = ""
-        self.winner = None
 
     #initialize game specific machine
     def initializeMachine(self, machine):

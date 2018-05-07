@@ -1,7 +1,6 @@
 from game_abstractions.game import Game
 from persistent.deck import Deck
 from rules.blackorred_rules import BlackOrRedRules
-from persistent.player import Player
 from machines.bor_machine import BoRMachine
 
 class BlackOrRed(Game):
@@ -14,7 +13,8 @@ class BlackOrRed(Game):
         
         
     def play(self):
-        self.begin()
+        self.intro()
+        self.initializePlayers()
         
         while self.deck.getNumCards() > 0:
             self.cardPlayed = self.deck.draw()
@@ -23,16 +23,32 @@ class BlackOrRed(Game):
             guess = input("Black or Red?\n")
             self.machine.getCurrentState().check(self.cardPlayed, guess)
         
+        winner = self.findWinner()
+        print(winner.name + " is the winner!")
+        
+        
+    def initializePlayers(self):
+        names = []
+        numPlayers = int(input("How many players? "))
+        for _ in range(numPlayers):
+            names.append(input("Enter a name: "))
+        
+        self.createPlayers(names)
+        self.initializeMachine(BoRMachine(self, self.players))
+        
+    def findWinner(self):
         print("No cards remaining. Finding the winner...")
         print("...")
         print("...")
         print("...")
         
-        winner = self.findWinner()
-        print(winner.name + " is the winner!")
-        
-        
-    def begin(self):
+        lowest = self.players[0]
+        for p in self.players:
+            if p.getPoints() < lowest.getPoints():
+                lowest = p
+        return lowest
+
+    def intro(self): 
         print("____Welcome to Black or Red____\n\n")
         print("RULES:")
         print("The dealer will draw a card.")
@@ -44,21 +60,5 @@ class BlackOrRed(Game):
         print("The player with the least points wins.")
         print("Good luck!\n\n")
         
-        names = []
-        numPlayers = int(input("How many players? "))
-        for _ in range(numPlayers):
-            names.append(input("Enter a name: "))
-        
-        self.createPlayers(names)
-        
-        self.initializeMachine(BoRMachine(self, self.players))
-        
-    def findWinner(self):
-        lowest = self.players[0]
-        for p in self.players:
-            if p.getPoints() < lowest.getPoints():
-                lowest = p
-        return lowest
-
 BlackOrRed().play()
         
