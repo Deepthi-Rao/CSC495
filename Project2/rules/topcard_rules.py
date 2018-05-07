@@ -8,15 +8,19 @@ class TopCardRules:
         self.rules = self.getAllRules()
 
 
-
     class Play1Rule(TwoCardRule):
-        def canPlay(self, compCard, card1):
+        def canPlay(self, *args):
+            compCard = args[0]
+            card1 = args[1]
             if compCard.getRank == card1.getRank:
                 return True
             return False
 
     class Play2Rule(ThreeCardRule):
-        def canPlay(self, compCard, card1, card2):
+        def canPlay(self, *args):
+            compCard = args[0]
+            card1 = args[1]
+            card2 = args[2]
             #special case: compCard is an Ace
             if compCard.getRank == "A":
                 if self.getPlayValue(card1, card2) == 14:
@@ -28,10 +32,11 @@ class TopCardRules:
                 return False
 
     class Play3Rule(FourCardRule):
-
-
-        def canPlay(self, compCard, card1, card2, card3):
-
+        def canPlay(self, *args):
+            compCard = args[0]
+            card1 = args[1]
+            card2 = args[2]
+            card3 = args[3]
             #special case: compCard is an Ace
             if compCard.getRank == "A":
                 if self.getPlayValue(card1, card2, card3) == 14:

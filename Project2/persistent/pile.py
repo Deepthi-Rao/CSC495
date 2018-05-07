@@ -16,3 +16,6 @@ class Pile(Stack):
     # adds a card to the top of the stack
     def placeOnTop(self, card):
         self.push(card)
+        
+    def placeManyOnTop(self, cards):
+        self.stack.extend(cards)

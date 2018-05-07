@@ -14,6 +14,7 @@ class Game:
         self.rules = []
         self.turnIndex = 0
         self.displayMessage = ""
+        self.winner = None
 
     #initialize game specific machine
     def initializeMachine(self, machine):
@@ -64,6 +65,10 @@ class Game:
     # this increments the turn index
     def incrementTurnIndex(self):
         self.turnIndex = self.turnIndex + 1
+        
+    def checkDeck(self, numCards):
+        if self.deck.size() - numCards <= 0:
+            self.deck.shuffleInCards(self.pile.takeAllCards())
 
     # specific to each game
     def play(self):
