@@ -25,7 +25,7 @@ class TopCard(Game):
             
             print("Your Hand: " + self.getCurrentPlayer().viewHand())
             print("Which card(s) would you like to play?")
-            print("Enter the card numbers in descending order with 1 being the first card, separated by spaces.\n")
+            print("Enter the card numbers with 1 being the first card, separated by spaces.\n")
             cardsIndices = [int(c) for c in input().split()]
             try:
                 cards = [self.getCurrentPlayer().hand.getCard(i-1) for i in cardsIndices]
@@ -39,7 +39,10 @@ class TopCard(Game):
                 print("Card(s) accepted! Your turn has ended.")
                 cards = cards[1:]
                 [self.getCurrentPlayer().playCard(c) for c in cards]
-                self.machine.currentState.checkWin()
+                
+                if self.machine.currentState.checkWin():
+                    break
+                
             else:
                 print("Those cards do not add up to " + str(self.cardPlayed.getRank))
                 self.checkDeck(2)

@@ -41,6 +41,8 @@ class TopCardMachine(StateMachine):
             if self.currentPlayer.numCards() == 0:
                 self.machine.setCurrentState(self.machine.Win)
                 self.machine.game.winner = self.currentPlayer
+                return True
+            return False
                 
         def check(self, cardsPlayed):
             if self.processCurrent(cardsPlayed):
