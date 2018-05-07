@@ -15,7 +15,7 @@ class BoRMachine(StateMachine):
     
     # returns all the states in a flat list
     def getAllStates(self):
-        return list(itertools.chain.from_iterable([[self.Start], self.turnStates, [self.Win]]))
+        return list(itertools.chain.from_iterable([[self.StartBoR], self.turnStates, [self.Win]]))
     
     class StartBoR(State):
         def __init__(self, machine, turnStates):

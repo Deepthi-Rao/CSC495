@@ -13,6 +13,9 @@ class Hand:
     def getCards(self):
         return self.cards
     
+    def getCard(self, idx):
+        return self.cards[idx]
+    
     # returns the number of cards in the hand
     def getNumCards(self):
         return len(self.cards)
@@ -32,11 +35,14 @@ class Hand:
         pass
 
     # discards a specific card from the hand    
-    def discard(self, card):
-        if card in self.cards:
-            self.cards.remove(card)
-            return True
-        return False
+    def discard(self, card=None, idx=-1):
+        if idx == -1:
+            if card in self.cards:
+                self.cards.remove(card)
+                return True
+            return False
+        else:
+            return self.cards.pop(idx)
 
     #returns the size
     def size(self):
