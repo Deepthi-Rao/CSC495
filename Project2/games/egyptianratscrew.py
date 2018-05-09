@@ -24,7 +24,7 @@ class EgyptianRatScrew(Game):
 
     def begin(self):
          self.setCurrentPlayer()
-         self.dealCards()
+         self.dealAllCards()
 
     def play(self):
         self.cardPlayed = self.currentPlayer.playTopCard()
@@ -72,9 +72,9 @@ class EgyptianRatScrew(Game):
                 game.serviceSlap()
 
 
-#starts game.
-game = EgyptianRatScrew()
-game.build(game)
+#starts game. uncomment to see the game functionality
+#game = EgyptianRatScrew()
+#game.build(game)
 
 
 
