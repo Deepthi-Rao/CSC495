@@ -1,0 +1,497 @@
+____Welcome to Black or Red____
+
+
+RULES:
+The dealer will draw a card.
+The player will guess black or red.
+If they are correct, they can go again.
+If they are correct three times in a row, the next player guesses.
+If not, they get points equal to how many guesses they've done, and the next player guesses.
+The game ends when no cards are left to guess.
+The player with the least points wins.
+Good luck!
+
+
+How many players? 3
+Enter a name: Amanda
+Enter a name: Caleb
+Enter a name: Marty
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 1 points.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly three times.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+Red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+Black
+Your guess is incorrect.
+You now have 2 points.
+Your turn has ended.
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 2 points.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 1 points.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 4 points.
+Your turn has ended.
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 4 points.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 3 points.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 5 points.
+Your turn has ended.
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly three times.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 4 points.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 6 points.
+Your turn has ended.
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly three times.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 5 points.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 9 points.
+Your turn has ended.
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 6 points.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 6 points.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 12 points.
+Your turn has ended.
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly three times.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 9 points.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly three times.
+Your turn has ended.
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 7 points.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 10 points.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 14 points.
+Your turn has ended.
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Amanda
+The dealer has drawn a card.
+
+Black or Red?
+black
+Your guess is incorrect.
+You now have 9 points.
+Your turn has ended.
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 1 time(s).
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+red
+You have guessed correctly!
+
+You have guessed correctly 2 time(s).
+
+Current Player: Caleb
+The dealer has drawn a card.
+
+Black or Red?
+black
+You have guessed correctly!
+
+You have guessed correctly three times.
+Your turn has ended.
+
+Current Player: Marty
+The dealer has drawn a card.
+
+Black or Red?
+red
+Your guess is incorrect.
+You now have 15 points.
+Your turn has ended.
+
+No cards remaining. Finding the winner...
+...
+...
+...
+Amanda is the winner!

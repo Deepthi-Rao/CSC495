@@ -1,0 +1,301 @@
+____Welcome to Top Card____
+
+
+RULES:
+The dealer will draw a card.
+The player must play up to three cards that add up to the value of the dealer's card.
+If the player cannot, they must draw two cards.
+Whichever player gets an empty hand first wins.
+Good luck!
+
+
+How many players? 5
+Enter a name: Ammar
+Enter a name: Hanna
+Enter a name: Deepthi
+Enter a name: Daniel
+Enter a name: Dustin
+Current Player: Ammar
+The dealer has drawn a card.
+
+Active Card: 4 of SPADES
+
+Your Hand: J of CLUBS, 8 of HEARTS, 9 of DIAMONDS, 7 of SPADES, 6 of HEARTS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+1
+Those cards do not add up to 4
+You have drawn 2 cards. Your turn has ended.
+Current Player: Hanna
+The dealer has drawn a card.
+
+Active Card: J of HEARTS
+
+Your Hand: Q of HEARTS, 6 of DIAMONDS, 6 of SPADES, 4 of CLUBS, 2 of HEARTS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+2 3
+Those cards do not add up to J
+You have drawn 2 cards. Your turn has ended.
+Current Player: Deepthi
+The dealer has drawn a card.
+
+Active Card: K of SPADES
+
+Your Hand: 9 of HEARTS, 5 of DIAMONDS, 3 of DIAMONDS, A of DIAMONDS, 5 of HEARTS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+1 3 4
+Card(s) accepted! Your turn has ended.
+Current Player: Daniel
+The dealer has drawn a card.
+
+Active Card: 10 of DIAMONDS
+
+Your Hand: 7 of HEARTS, A of CLUBS, 5 of SPADES, 8 of CLUBS, 5 of CLUBS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+3 5
+Card(s) accepted! Your turn has ended.
+Current Player: Dustin
+The dealer has drawn a card.
+
+Active Card: 8 of DIAMONDS
+
+Your Hand: 2 of SPADES, 10 of CLUBS, 3 of HEARTS, A of SPADES, 8 of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+5
+Card(s) accepted! Your turn has ended.
+Current Player: Ammar
+The dealer has drawn a card.
+
+Active Card: J of DIAMONDS
+
+Your Hand: J of CLUBS, 8 of HEARTS, 9 of DIAMONDS, 7 of SPADES, 6 of HEARTS, 9 of CLUBS, 3 of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+1
+Card(s) accepted! Your turn has ended.
+Current Player: Hanna
+The dealer has drawn a card.
+
+Active Card: 2 of CLUBS
+
+Your Hand: Q of HEARTS, 6 of DIAMONDS, 6 of SPADES, 4 of CLUBS, 2 of HEARTS, Q of SPADES, 3 of CLUBS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+5
+Card(s) accepted! Your turn has ended.
+Current Player: Deepthi
+The dealer has drawn a card.
+
+Active Card: 7 of DIAMONDS
+
+Your Hand: 5 of DIAMONDS, 5 of HEARTS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+1
+Those cards do not add up to 7
+You have drawn 2 cards. Your turn has ended.
+Current Player: Daniel
+The dealer has drawn a card.
+
+Active Card: 4 of HEARTS
+
+Your Hand: 7 of HEARTS, A of CLUBS, 8 of CLUBS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+2
+Those cards do not add up to 4
+You have drawn 2 cards. Your turn has ended.
+Current Player: Dustin
+The dealer has drawn a card.
+
+Active Card: 10 of HEARTS
+
+Your Hand: 2 of SPADES, 10 of CLUBS, 3 of HEARTS, A of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+2
+Card(s) accepted! Your turn has ended.
+Current Player: Ammar
+The dealer has drawn a card.
+
+Active Card: 9 of SPADES
+
+Your Hand: 8 of HEARTS, 9 of DIAMONDS, 7 of SPADES, 6 of HEARTS, 9 of CLUBS, 3 of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+2
+Card(s) accepted! Your turn has ended.
+Current Player: Hanna
+The dealer has drawn a card.
+
+Active Card: A of HEARTS
+
+Your Hand: Q of HEARTS, 6 of DIAMONDS, 6 of SPADES, 4 of CLUBS, Q of SPADES, 3 of CLUBS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+5
+Those cards do not add up to A
+You have drawn 2 cards. Your turn has ended.
+Current Player: Deepthi
+The dealer has drawn a card.
+
+Active Card: K of HEARTS
+
+Your Hand: 5 of DIAMONDS, 5 of HEARTS, 2 of DIAMONDS, 4 of DIAMONDS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+1 2 4
+Those cards do not add up to K
+You have drawn 2 cards. Your turn has ended.
+Current Player: Daniel
+The dealer has drawn a card.
+
+Active Card: Q of DIAMONDS
+
+Your Hand: 7 of HEARTS, A of CLUBS, 8 of CLUBS, Q of CLUBS, 6 of CLUBS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+4
+Card(s) accepted! Your turn has ended.
+Current Player: Dustin
+The dealer has drawn a card.
+
+Active Card: A of CLUBS
+
+Your Hand: 2 of SPADES, 3 of HEARTS, A of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+3
+Card(s) accepted! Your turn has ended.
+Current Player: Ammar
+The dealer has drawn a card.
+
+Active Card: 6 of DIAMONDS
+
+Your Hand: 8 of HEARTS, 7 of SPADES, 6 of HEARTS, 9 of CLUBS, 3 of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+3
+Card(s) accepted! Your turn has ended.
+Current Player: Hanna
+The dealer has drawn a card.
+
+Active Card: A of HEARTS
+
+Your Hand: Q of HEARTS, 6 of DIAMONDS, 6 of SPADES, 4 of CLUBS, Q of SPADES, 3 of CLUBS, K of DIAMONDS, K of CLUBS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+5
+Those cards do not add up to A
+You have drawn 2 cards. Your turn has ended.
+Current Player: Deepthi
+The dealer has drawn a card.
+
+Active Card: 4 of DIAMONDS
+
+Your Hand: 5 of DIAMONDS, 5 of HEARTS, 2 of DIAMONDS, 4 of DIAMONDS, J of SPADES, 10 of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+4
+Card(s) accepted! Your turn has ended.
+Current Player: Daniel
+The dealer has drawn a card.
+
+Active Card: 6 of SPADES
+
+Your Hand: 7 of HEARTS, A of CLUBS, 8 of CLUBS, 6 of CLUBS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+4
+Card(s) accepted! Your turn has ended.
+Current Player: Dustin
+The dealer has drawn a card.
+
+Active Card: 3 of DIAMONDS
+
+Your Hand: 2 of SPADES, 3 of HEARTS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+2
+Card(s) accepted! Your turn has ended.
+Current Player: Ammar
+The dealer has drawn a card.
+
+Active Card: 10 of DIAMONDS
+
+Your Hand: 8 of HEARTS, 7 of SPADES, 9 of CLUBS, 3 of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+2 4
+Card(s) accepted! Your turn has ended.
+Current Player: Hanna
+The dealer has drawn a card.
+
+Active Card: 5 of HEARTS
+
+Your Hand: Q of HEARTS, 6 of DIAMONDS, 6 of SPADES, 4 of CLUBS, Q of SPADES, 3 of CLUBS, K of DIAMONDS, K of CLUBS, 9 of SPADES, 5 of DIAMONDS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+10
+Card(s) accepted! Your turn has ended.
+Current Player: Deepthi
+The dealer has drawn a card.
+
+Active Card: J of DIAMONDS
+
+Your Hand: 5 of DIAMONDS, 5 of HEARTS, 2 of DIAMONDS, J of SPADES, 10 of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+4
+Card(s) accepted! Your turn has ended.
+Current Player: Daniel
+The dealer has drawn a card.
+
+Active Card: 5 of DIAMONDS
+
+Your Hand: 7 of HEARTS, A of CLUBS, 8 of CLUBS
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+1
+Those cards do not add up to 5
+You have drawn 2 cards. Your turn has ended.
+Current Player: Dustin
+The dealer has drawn a card.
+
+Active Card: 2 of DIAMONDS
+
+Your Hand: 2 of SPADES
+Which card(s) would you like to play?
+Enter the card numbers with 1 being the first card, separated by spaces.
+
+1
+Card(s) accepted! Your turn has ended.
+Dustin has won the game!
