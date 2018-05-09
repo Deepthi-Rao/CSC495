@@ -49,7 +49,7 @@ class EgyptianRatScrew(Game):
         print("")
         print("")
 
-        names = ["Hanna", "Deepthi"]
+        names = ["Ananya", "Deepthi"]
 
         game.setPlayers(names)
         game.setEnv()
