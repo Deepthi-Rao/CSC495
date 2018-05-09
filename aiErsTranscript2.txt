@@ -1,0 +1,904 @@
+/Users/DeepthiRao/venv/bin/python /Users/DeepthiRao/git/CSC495/Project2/ai/ai.py
+____Welcome to Egyptian Rat Screw____
+
+
+Hanna has played a Card with the properties: Suit SPADES and Rank 6
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 5
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 2
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 7
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 8
+Deepthi has played a Card with the properties: Suit SPADES and Rank A
+Hanna has played a Card with the properties: Suit SPADES and Rank 5
+Deepthi has played a Card with the properties: Suit SPADES and Rank K
+AI Hanna is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 30 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit SPADES and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 3
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 5
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 5
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 2
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 7
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 8
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 5
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank A
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 8
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 5
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 4
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank K
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 30 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank 6
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+Deepthi has played a Card with the properties: Suit SPADES and Rank 3
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 8
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 5
+Hanna has played a Card with the properties: Suit CLUBS and Rank K
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 33 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank 6
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank Q
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 10
+Deepthi has played a Card with the properties: Suit SPADES and Rank 3
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 22 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 8
+Hanna has played a Card with the properties: Suit SPADES and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 5
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank Q
+Deepthi has played a Card with the properties: Suit CLUBS and Rank K
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 5
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 10
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 2
+Hanna has played a Card with the properties: Suit SPADES and Rank 3
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 7
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+AI Hanna is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 28 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 7
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 8
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+Hanna has played a Card with the properties: Suit SPADES and Rank 6
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 5
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 5
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank Q
+AI Deepthi is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 28 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 7
+Hanna has played a Card with the properties: Suit CLUBS and Rank K
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 8
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 5
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 6
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 10
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 2
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 5
+Hanna has played a Card with the properties: Suit SPADES and Rank 3
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 5
+Hanna has played a Card with the properties: Suit CLUBS and Rank 7
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank Q
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 32 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank A
+AI Deepthi is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 20 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit HEARTS and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank A
+Hanna has played a Card with the properties: Suit CLUBS and Rank K
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 33 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 8
+Hanna has played a Card with the properties: Suit HEARTS and Rank 7
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank A
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 4
+Hanna has played a Card with the properties: Suit CLUBS and Rank K
+Deepthi has played a Card with the properties: Suit SPADES and Rank K
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 22 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 8
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 8
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 7
+Hanna has played a Card with the properties: Suit SPADES and Rank 9
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 5
+Deepthi has played a Card with the properties: Suit SPADES and Rank A
+Hanna has played a Card with the properties: Suit SPADES and Rank 6
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 4
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 10
+Deepthi has played a Card with the properties: Suit CLUBS and Rank K
+Hanna has played a Card with the properties: Suit SPADES and Rank 8
+Deepthi has played a Card with the properties: Suit SPADES and Rank K
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 2
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank J
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 30 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 5
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 8
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 3
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 8
+Hanna has played a Card with the properties: Suit HEARTS and Rank 5
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 7
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 7
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank Q
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+Hanna has played a Card with the properties: Suit CLUBS and Rank 2
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 5
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank A
+AI Deepthi is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 38 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 5
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 6
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 8
+Hanna has played a Card with the properties: Suit SPADES and Rank 7
+Deepthi has played a Card with the properties: Suit SPADES and Rank 3
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 8
+Hanna has played a Card with the properties: Suit HEARTS and Rank J
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 18 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 5
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 5
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 7
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 8
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 7
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 7
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank Q
+Hanna has played a Card with the properties: Suit SPADES and Rank 3
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit HEARTS and Rank A
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 25 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit HEARTS and Rank 5
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 5
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 2
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 5
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank A
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 31 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit CLUBS and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 5
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 8
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 7
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 5
+Hanna has played a Card with the properties: Suit SPADES and Rank 7
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 2
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank Q
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+Hanna has played a Card with the properties: Suit SPADES and Rank 3
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 5
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 9
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 6
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 6
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank A
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+Deepthi has played a Card with the properties: Suit SPADES and Rank A
+AI Hanna is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 30 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit CLUBS and Rank 7
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 6
+Hanna has played a Card with the properties: Suit HEARTS and Rank 5
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 4
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 8
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 10
+Hanna has played a Card with the properties: Suit SPADES and Rank 5
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank K
+Hanna has played a Card with the properties: Suit HEARTS and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 5
+Deepthi has played a Card with the properties: Suit SPADES and Rank K
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 36 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit CLUBS and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 2
+Hanna has played a Card with the properties: Suit SPADES and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank J
+Hanna has played a Card with the properties: Suit HEARTS and Rank 5
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 4
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 4
+Deepthi has played a Card with the properties: Suit CLUBS and Rank Q
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 8
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank J
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 21 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 10
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 7
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 5
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 2
+Hanna has played a Card with the properties: Suit CLUBS and Rank K
+Deepthi has played a Card with the properties: Suit SPADES and Rank 6
+Hanna has played a Card with the properties: Suit HEARTS and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank J
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 25 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit SPADES and Rank 8
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 10
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 5
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 7
+Hanna has played a Card with the properties: Suit SPADES and Rank K
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+Hanna has played a Card with the properties: Suit SPADES and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 2
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 2
+Deepthi has played a Card with the properties: Suit CLUBS and Rank K
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 30 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank Q
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 31 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank Q
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 3
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 10
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 5
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 5
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 9
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 7
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 6
+Deepthi has played a Card with the properties: Suit SPADES and Rank K
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 6
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank A
+Deepthi has played a Card with the properties: Suit SPADES and Rank 7
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 29 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 2
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank Q
+AI Deepthi is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 24 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 2
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank Q
+Hanna has played a Card with the properties: Suit SPADES and Rank 8
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 2
+Hanna has played a Card with the properties: Suit SPADES and Rank 3
+Deepthi has played a Card with the properties: Suit CLUBS and Rank K
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 10
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 6
+Hanna has played a Card with the properties: Suit CLUBS and Rank 5
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 7
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 5
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank J
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 30 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit SPADES and Rank 9
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 2
+Hanna has played a Card with the properties: Suit CLUBS and Rank 7
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 6
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank Q
+Hanna has played a Card with the properties: Suit SPADES and Rank K
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 25 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 9
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 2
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 2
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 3
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 7
+Deepthi has played a Card with the properties: Suit CLUBS and Rank K
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 30 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+Hanna has played a Card with the properties: Suit HEARTS and Rank 6
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank Q
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 2
+Hanna has played a Card with the properties: Suit SPADES and Rank K
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 34 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+Hanna has played a Card with the properties: Suit SPADES and Rank 5
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 6
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank A
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 37 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 6
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank A
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 8
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 6
+Hanna has played a Card with the properties: Suit HEARTS and Rank J
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 42 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+Hanna has played a Card with the properties: Suit HEARTS and Rank 10
+Deepthi has played a Card with the properties: Suit SPADES and Rank 7
+Hanna has played a Card with the properties: Suit CLUBS and Rank 4
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 6
+Hanna has played a Card with the properties: Suit HEARTS and Rank 2
+Deepthi has played a Card with the properties: Suit HEARTS and Rank A
+Hanna has played a Card with the properties: Suit HEARTS and Rank 4
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+Hanna has played a Card with the properties: Suit HEARTS and Rank 9
+Deepthi has played a Card with the properties: Suit SPADES and Rank A
+AI Deepthi is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 47 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit SPADES and Rank J
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank K
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 10
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 10
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 7
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 3
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 4
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 6
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 6
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 2
+AI Hanna is smart now.
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit HEARTS and Rank A
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 4
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+AI Hanna is smart now.
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 9
+AI Hanna is smart now.
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit SPADES and Rank A
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit SPADES and Rank 5
+AI Hanna is smart now.
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 8
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 6
+AI Deepthi is smart now.
+No card played by Hanna
+Deepthi has played a Card with the properties: Suit HEARTS and Rank J
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 20 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit SPADES and Rank J
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 20 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank A
+Hanna has played a Card with the properties: Suit SPADES and Rank J
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 10
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank Q
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank K
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 2
+Hanna has played a Card with the properties: Suit HEARTS and Rank 10
+Deepthi has played a Card with the properties: Suit SPADES and Rank K
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 36 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit CLUBS and Rank 10
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank A
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 37 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit SPADES and Rank 7
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 10
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 3
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank A
+Hanna has played a Card with the properties: Suit CLUBS and Rank 4
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank J
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 40 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit CLUBS and Rank 6
+Deepthi has played a Card with the properties: Suit SPADES and Rank 7
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 6
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 10
+Hanna has played a Card with the properties: Suit HEARTS and Rank 2
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 3
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+AI Deepthi is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 44 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 6
+Hanna has played a Card with the properties: Suit HEARTS and Rank 4
+Deepthi has played a Card with the properties: Suit SPADES and Rank 7
+Hanna has played a Card with the properties: Suit SPADES and Rank 8
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 6
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 9
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 10
+Hanna has played a Card with the properties: Suit SPADES and Rank A
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 2
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 5
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 3
+Hanna has played a Card with the properties: Suit CLUBS and Rank 8
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit HEARTS and Rank A
+Hanna has played a Card with the properties: Suit HEARTS and Rank 6
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank A
+AI Hanna is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 16 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit CLUBS and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 4
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 4
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank J
+Hanna has played a Card with the properties: Suit SPADES and Rank 7
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 8
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank 6
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank Q
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 41 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit HEARTS and Rank 9
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 6
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 10
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 4
+Hanna has played a Card with the properties: Suit SPADES and Rank A
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 13 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 4
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 9
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank J
+Hanna has played a Card with the properties: Suit CLUBS and Rank 6
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 7
+AI Deepthi is smart now.
+Hanna has played a Card with the properties: Suit CLUBS and Rank 10
+Deepthi has played a Card with the properties: Suit SPADES and Rank 9
+Hanna has played a Card with the properties: Suit CLUBS and Rank 4
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank 8
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank A
+Deepthi has played a Card with the properties: Suit SPADES and Rank 10
+Hanna has played a Card with the properties: Suit HEARTS and Rank 2
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank 6
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit SPADES and Rank 5
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank Q
+Hanna has played a Card with the properties: Suit CLUBS and Rank 3
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit DIAMONDS and Rank K
+Hanna has played a Card with the properties: Suit CLUBS and Rank 8
+AI Hanna is smart now.
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 2
+Hanna has played a Card with the properties: Suit HEARTS and Rank A
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 10
+Hanna has played a Card with the properties: Suit HEARTS and Rank 6
+AI Deepthi is smart now.
+Deepthi has played a Card with the properties: Suit SPADES and Rank K
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 50 cards in hand.
+
+
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank A
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 4
+Hanna has played a Card with the properties: Suit HEARTS and Rank J
+AI Hanna is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 3 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit HEARTS and Rank 9
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank A
+AI Deepthi is smart now.
+
+
+Hanna has slapped the pile!
+Face Rule Employed.
+Hanna has 4 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank J
+Hanna has played a Card with the properties: Suit HEARTS and Rank 9
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 6
+Hanna has played a Card with the properties: Suit DIAMONDS and Rank A
+Deepthi has played a Card with the properties: Suit SPADES and Rank 7
+AI Hanna is smart now.
+Hanna has played a Card with the properties: Suit HEARTS and Rank 4
+Deepthi has played a Card with the properties: Suit CLUBS and Rank 10
+Hanna has played a Card with the properties: Suit HEARTS and Rank J
+AI Hanna is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 52 cards in hand.
+
+
+Deepthi has played a Card with the properties: Suit SPADES and Rank J
+AI Deepthi is smart now.
+
+
+Deepthi has slapped the pile!
+Face Rule Employed.
+Deepthi has 52 cards in hand.
+
+
+Deepthi has won the game!
+
+Process finished with exit code 0
+
