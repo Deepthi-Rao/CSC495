@@ -73,8 +73,8 @@ class EgyptianRatScrew(Game):
 
 
 #starts game. uncomment to see the game functionality
-game = EgyptianRatScrew()
-game.build(game)
+#game = EgyptianRatScrew()
+#game.build(game)
 
 
 
