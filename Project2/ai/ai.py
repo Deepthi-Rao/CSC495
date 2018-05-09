@@ -23,7 +23,7 @@ class AI:
         slapFreq = random.randint(0, 11)
         if (slapFreq > (slapFreq % prob)):
             game.slapQueue.enqueue(game.players[turn])
-        if turn == 0:
+        if turn == 0: #too slow then enqueue the other
             game.slapQueue.enqueue(game.players[1])
         elif turn == 1:
             game.slapQueue.enqueue(game.players[0])
